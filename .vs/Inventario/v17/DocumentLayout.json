@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmIngreso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inventario\\FrmIngreso.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmListado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inventario\\FrmListado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmMainAdmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inventario\\FrmMainAdmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inventario\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\AccesoADatos\\Data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoADatos\\Data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\AccesoADatos\\BaseDeDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoADatos\\BaseDeDatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmLogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Inventario\\FrmLogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmListado.aspx",
+              "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmListado.aspx",
+              "RelativeDocumentMoniker": "Inventario\\FrmListado.aspx",
+              "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmListado.aspx",
+              "RelativeToolTip": "Inventario\\FrmListado.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-10T01:35:33.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmIngreso.aspx",
+              "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmIngreso.aspx",
+              "RelativeDocumentMoniker": "Inventario\\FrmIngreso.aspx",
+              "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmIngreso.aspx",
+              "RelativeToolTip": "Inventario\\FrmIngreso.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-10T01:35:33.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmMainAdmin.aspx",
+              "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmMainAdmin.aspx",
+              "RelativeDocumentMoniker": "Inventario\\FrmMainAdmin.aspx",
+              "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmMainAdmin.aspx",
+              "RelativeToolTip": "Inventario\\FrmMainAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-10T01:35:33.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\Web.config",
+              "RelativeDocumentMoniker": "Inventario\\Web.config",
+              "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\Web.config",
+              "RelativeToolTip": "Inventario\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-06-10T01:35:33.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Data.cs",
+              "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\AccesoADatos\\Data.cs",
+              "RelativeDocumentMoniker": "AccesoADatos\\Data.cs",
+              "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\AccesoADatos\\Data.cs",
+              "RelativeToolTip": "AccesoADatos\\Data.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T01:35:33.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseDeDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\AccesoADatos\\BaseDeDatos.cs",
+              "RelativeDocumentMoniker": "AccesoADatos\\BaseDeDatos.cs",
+              "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\AccesoADatos\\BaseDeDatos.cs",
+              "RelativeToolTip": "AccesoADatos\\BaseDeDatos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T01:35:33.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmLogin.aspx",
+              "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmLogin.aspx",
+              "RelativeDocumentMoniker": "Inventario\\FrmLogin.aspx",
+              "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmLogin.aspx",
+              "RelativeToolTip": "Inventario\\FrmLogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-10T01:35:33.684Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
