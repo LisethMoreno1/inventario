@@ -1,0 +1,6 @@
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\bin\Debug\Common.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\bin\Debug\Common.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\obj\Debug\Comun.csproj.AssemblyReference.cache
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\obj\Debug\Common.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\obj\Debug\Common.pdb

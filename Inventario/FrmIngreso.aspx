@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FrmIngreso.aspx.cs" Inherits="Inventario.FrmIngreso" %>
+
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -95,7 +98,7 @@
                 <asp:Calendar ID="Calendar2" runat="server" CssClass="form-calendar"></asp:Calendar>
             </div>
         </div>
-        <button>Registrar</button>
+        <button onclick="BtnRegistro_Click">Registrar</button>
     </form>
 </body>
 </html>
