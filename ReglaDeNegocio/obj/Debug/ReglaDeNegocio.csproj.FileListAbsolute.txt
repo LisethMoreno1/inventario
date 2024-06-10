@@ -1,0 +1,6 @@
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\bin\Debug\ReglaDeNegocio.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\bin\Debug\ReglaDeNegocio.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\obj\Debug\ReglaDeNegocio.csproj.AssemblyReference.cache
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\obj\Debug\ReglaDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\obj\Debug\ReglaDeNegocio.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\obj\Debug\ReglaDeNegocio.pdb

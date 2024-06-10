@@ -125,6 +125,7 @@
     <Content Include="favicon.ico" />
     <Content Include="FrmIngreso.aspx" />
     <Content Include="FrmListado.aspx" />
+    <Content Include="FrmLogin.aspx" />
     <Content Include="FrmMainAdmin.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -155,7 +156,6 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <Content Include="FrmLogin.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -227,6 +227,13 @@
     <Compile Include="FrmListado.aspx.designer.cs">
       <DependentUpon>FrmListado.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FrmLogin.aspx.cs">
+      <DependentUpon>FrmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.aspx.designer.cs">
+      <DependentUpon>FrmLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FrmMainAdmin.aspx.cs">
       <DependentUpon>FrmMainAdmin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -259,13 +266,6 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="FrmLogin.aspx.cs">
-      <DependentUpon>FrmLogin.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="FrmLogin.aspx.designer.cs">
-      <DependentUpon>FrmLogin.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -280,6 +280,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Comun.csproj">
+      <Project>{db33f827-7119-482e-851a-7437d2a03d12}</Project>
+      <Name>Comun</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ReglaDeNegocio\ReglaDeNegocio.csproj">
+      <Project>{a398a47a-52ab-48b8-b82e-5feef0c57144}</Project>
+      <Name>ReglaDeNegocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

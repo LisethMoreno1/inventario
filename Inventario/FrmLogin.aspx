@@ -1,83 +1,56 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FrmLogin.aspx.cs" Inherits="Presentacion.FrmLogin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FrmLogin.aspx.cs" Inherits="Inventario.FrmLogin1" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Login</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
-
-        .login-form {
-            width: 300px;
-            margin: 100px auto;
-            padding: 20px;
+        .login-container {
             background-color: #fff;
+            padding: 20px;
             border-radius: 5px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        .form-group label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-
-        .form-control {
+        .login-container input[type="text"],
+        .login-container input[type="password"],
+        .login-container input[type="submit"] {
             width: 100%;
-            padding: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 3px;
-            margin: 10px 0; /* Añadir margen alrededor del campo de entrada */
+            box-sizing: border-box;
         }
-
-        .btn {
-            padding: 8px 16px;
-            border: none;
-            border-radius: 3px;
-            cursor: pointer;
-        }
-
-        .btn-primary {
+        .login-container input[type="submit"] {
             background-color: #007bff;
             color: #fff;
+            cursor: pointer;
         }
-
-        .btn-secondary {
-            background-color: #6c757d;
-            color: #fff;
+        .login-container input[type="submit"]:hover {
+            background-color: #0056b3;
         }
-
-        .message {
-            color: #dc3545;
-            font-weight: bold;
-            margin-top: 10px;
+        .error-message {
+            color: red;
         }
     </style>
 </head>
 <body>
-    <form id="form1" runat="server" class="login-form">
-        <div class="form-group">
-            <asp:Label ID="LblUsername" runat="server" Text="Username"></asp:Label>
-            <asp:TextBox ID="TxtUsername" runat="server" CssClass="form-control" placeholder="Enter your username"></asp:TextBox>
-        </div>
-        <div class="form-group">
-            <asp:Label ID="LblPassword" runat="server" Text="Password"></asp:Label>
-            <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password" CssClass="form-control" placeholder="Enter your password"></asp:TextBox>
-        </div>
-        <div class="form-group">
-            <asp:Button ID="BtnLogin" runat="server" Text="Login" OnClick="BtnLogin_Click" CssClass="btn btn-primary" />
-            <asp:Button ID="BtnHome" runat="server" Text="Home" OnClick="BtnHome_Click" CssClass="btn btn-secondary" />
-        </div>
-        <div class="form-group">
-            <asp:Label ID="LblMensaje" runat="server" Text="" CssClass="message"></asp:Label>
+    <form id="form1" runat="server">
+        <div class="login-container">
+            <asp:TextBox ID="TxtUsername" runat="server" placeholder="Username"></asp:TextBox>
+            <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password" placeholder="Password"></asp:TextBox>
+            <asp:Button ID="BtnLogin" runat="server" Text="Login" OnClick="BtnLogin_Click" />
+            <asp:Label ID="LblMensaje" runat="server" CssClass="error-message"></asp:Label>
         </div>
     </form>
 </body>
