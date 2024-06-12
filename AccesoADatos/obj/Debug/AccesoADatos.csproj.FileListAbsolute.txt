@@ -1,0 +1,9 @@
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\bin\Debug\AccesoADatos.dll
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\bin\Debug\AccesoADatos.pdb
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\bin\Debug\Common.dll
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\bin\Debug\Common.pdb
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\obj\Debug\AccesoADatos.csproj.AssemblyReference.cache
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\obj\Debug\AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\obj\Debug\AccesoADatos.csproj.CopyComplete
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\obj\Debug\AccesoADatos.dll
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\obj\Debug\AccesoADatos.pdb

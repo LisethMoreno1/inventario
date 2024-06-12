@@ -152,3 +152,9 @@ C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Inventario\bin\Microsoft.C
 C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Inventario\bin\es\System.Web.Optimization.resources.dll
 C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Inventario\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
 C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Inventario\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\Common.dll
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\ReglaDeNegocio.dll
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\Common.pdb
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\ReglaDeNegocio.pdb
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\AccesoADatos.dll
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\AccesoADatos.pdb
