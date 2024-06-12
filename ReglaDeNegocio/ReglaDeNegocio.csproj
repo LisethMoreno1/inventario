@@ -33,6 +33,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,10 +42,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CategoriaNoPerecederoBL.cs" />
+    <Compile Include="CategoriaPerecederoBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RN_IngresoDeProductos.cs" />
     <Compile Include="RN_ListaDeProductos.cs" />
     <Compile Include="RN_Login.cs" />
+    <Compile Include="TipoProductoBL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoADatos\AccesoADatos.csproj">
+      <Project>{ae01f191-3548-42f4-82e0-dd84ea38d391}</Project>
+      <Name>AccesoADatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Comun.csproj">
+      <Project>{db33f827-7119-482e-851a-7437d2a03d12}</Project>
+      <Name>Comun</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

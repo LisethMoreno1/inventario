@@ -4,3 +4,9 @@ C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\obj\Debug\Comun.csp
 C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\obj\Debug\Comun.csproj.CoreCompileInputs.cache
 C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\obj\Debug\Common.dll
 C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Common\obj\Debug\Common.pdb
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Common\bin\Debug\Common.dll
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Common\bin\Debug\Common.pdb
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Common\obj\Debug\Comun.csproj.AssemblyReference.cache
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Common\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Common\obj\Debug\Common.dll
+C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Common\obj\Debug\Common.pdb
