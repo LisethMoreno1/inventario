@@ -15,8 +15,8 @@ namespace Inventario
                 CargarCombos();
             }
 
-            DropDownList1.SelectedIndexChanged += new EventHandler(DropDownList1_SelectedIndexChanged);
-            DropDownList1.AutoPostBack = true;
+            CmbTipoProducto.SelectedIndexChanged += new EventHandler(DropDownList1_SelectedIndexChanged);
+            CmbTipoProducto.AutoPostBack = true;
         }
 
         private void CargarCombos()
@@ -27,18 +27,18 @@ namespace Inventario
 
         private void CargarComboTipoProducto()
         {
-            TipoProductoBL.CargarCombo(DropDownList1);
+            TipoProductoBL.CargarCombo(CmbTipoProducto);
         }
 
         private void CargarComboCategoria()
         {
-            if (DropDownList1.SelectedItem != null && DropDownList1.SelectedItem.Text == "Perecedero")
+            if (CmbTipoProducto.SelectedItem != null && CmbTipoProducto.SelectedItem.Text == "Perecedero")
             {
-                CategoriaPerecederoBL.CargarCombo(DropDownList2);
+                CategoriaPerecederoBL.CargarCombo(CmbCategoria);
             }
             else
             {
-                CategoriaNoPerecederoBL.CargarCombo(DropDownList2);
+                CategoriaNoPerecederoBL.CargarCombo(CmbCategoria);
             }
         }
 
@@ -47,16 +47,52 @@ namespace Inventario
             CargarComboCategoria();
         }
 
+        private void Limpiar()
+        {
+            TxtNombre.Text = "";
+            CmbTipoProducto.SelectedIndex = 0;
+            CmbCategoria.SelectedIndex = 0;
+            TxtCantidad.Text = "";
+            CalFechaVencimiento.SelectedDate = DateTime.Today;
+            CalFechaRegistro.SelectedDate = DateTime.Today; ;
+
+        }
+
         protected void BtnRegistro_Click(object sender, EventArgs e)
         {
-            string nombre = TextBox1.Text;
-            int tipo = Convert.ToInt32(DropDownList1.SelectedValue);
-            int categoria = Convert.ToInt32(DropDownList2.SelectedValue);
-            int cantidad = Convert.ToInt32(Request.Form["TextBox2"]);
-            DateTime fechaVencimiento = Calendar1.SelectedDate;
-            DateTime fechaRegistro = Calendar2.SelectedDate;
+            RN_IngresoDeProductos ingresoProductos = new RN_IngresoDeProductos();
+            IngresoProductoComun productoComun = new IngresoProductoComun();
+            productoComun.Nombre = TxtNombre.Text;
+            productoComun.IdTipo = Convert.ToInt32(CmbTipoProducto.Text);
+            productoComun.IdCategoria = Convert.ToInt32(CmbCategoria.Text);
+            productoComun.Cantidad = Convert.ToInt32(TxtCantidad.Text);
+            productoComun.FechaVencimiento = CalFechaVencimiento.SelectedDate;
+            productoComun.FechaRegistro = CalFechaRegistro.SelectedDate;
 
-            IngresoProductoComun nuevoProducto = new IngresoProductoComun(nombre, tipo, categoria, cantidad, fechaVencimiento, fechaRegistro);
+            if (ingresoProductos.RegistrarProducto(productoComun) > 0)
+            {
+                LblMensaje.Text = "Se insertó el producto";
+                Limpiar();
+            }
+            else
+            {
+                if (ingresoProductos.BdCodeError != 0)
+                {
+                    LblMensaje.Text = ingresoProductos.BdMsgError;
+                }
+                else
+                {
+                    LblMensaje.Text = "No se insertó el usuario";
+                }
+            }
+            //string nombre = TextBox1.Text;
+            //int tipo = Convert.ToInt32(DropDownList1.SelectedValue);
+            //int categoria = Convert.ToInt32(DropDownList2.SelectedValue);
+            //int cantidad = Convert.ToInt32(Request.Form["TextBox2"]);
+            //DateTime fechaVencimiento = Calendar1.SelectedDate;
+            //DateTime fechaRegistro = Calendar2.SelectedDate;
+
+            //IngresoProductoComun nuevoProducto = new IngresoProductoComun(nombre, tipo, categoria, cantidad, fechaVencimiento, fechaRegistro);
 
             // bool registroExitoso = gestorProductos.RegistrarProducto(nuevoProducto);
 

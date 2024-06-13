@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FrmIngreso.aspx.cs" Inherits="Inventario.FrmIngreso" %>
+﻿git <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FrmIngreso.aspx.cs" Inherits="Inventario.FrmIngreso" %>
 
 
 <!DOCTYPE html>
@@ -68,37 +68,53 @@
         .date-group .form-calendar {
             width: 100%;
         }
+
+        .button {
+            border-radius: 5px;
+            padding: 8px;
+            background-color: cornflowerblue;
+
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server" class="styled-form">
         <div class="form-group">
-            <asp:Label ID="Label1" runat="server" Text="Nombre" CssClass="form-label"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server" CssClass="form-input"></asp:TextBox>
+            <asp:Label ID="LblNombre" runat="server" Text="Nombre" CssClass="form-label"></asp:Label>
+            <asp:TextBox ID="TxtNombre" runat="server" CssClass="form-input"></asp:TextBox>
         </div>
         <div class="form-group">
-            <asp:Label ID="Label2" runat="server" Text="Tipo" CssClass="form-label"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-input"></asp:DropDownList>
+            <asp:Label ID="LblTipo" runat="server" Text="Tipo" CssClass="form-label"></asp:Label>
+            <asp:DropDownList ID="CmbTipoProducto" runat="server" CssClass="form-input"></asp:DropDownList>
         </div>
         <div class="form-group">
-            <asp:Label ID="Label4" runat="server" Text="Categoria" CssClass="form-label"></asp:Label>
-            <asp:DropDownList ID="DropDownList2" runat="server" CssClass="form-input"></asp:DropDownList>
+            <asp:Label ID="LblCategoria" runat="server" Text="Categoria" CssClass="form-label"></asp:Label>
+            <asp:DropDownList ID="CmbCategoria" runat="server" CssClass="form-input"></asp:DropDownList>
         </div>
         <div class="form-group">
-            <asp:Label ID="Label3" runat="server" Text="Cantidad" CssClass="form-label"></asp:Label>
-            <input type="number" class="form-input" />
+            <asp:Label ID="LblCantidad" runat="server" Text="Cantidad" CssClass="form-label"></asp:Label>
+            <asp:TextBox ID="TxtCantidad" runat="server" CssClass="form-input"></asp:TextBox>
         </div>
         <div class="date-group">
             <div class="form-group">
-                <asp:Label ID="Label5" runat="server" Text="Fecha de Vencimiento" CssClass="form-label"></asp:Label>
-                <asp:Calendar ID="Calendar1" runat="server" CssClass="form-calendar"></asp:Calendar>
+                <asp:Label ID="LblFechaVencimiento" runat="server" Text="Fecha de Vencimiento" CssClass="form-label"></asp:Label>
+                <asp:Calendar ID="CalFechaVencimiento" runat="server" CssClass="table table-bordered"></asp:Calendar>
             </div>
             <div class="form-group">
-                <asp:Label ID="Label6" runat="server" Text="Fecha de Registro" CssClass="form-label"></asp:Label>
-                <asp:Calendar ID="Calendar2" runat="server" CssClass="form-calendar"></asp:Calendar>
+                <asp:Label ID="LblFechaRegistro" runat="server" Text="Fecha de Registro" CssClass="form-label"></asp:Label>
+                <asp:Calendar ID="CalFechaRegistro" runat="server" CssClass="table table-bordered"></asp:Calendar>
             </div>
         </div>
-        <button onclick="BtnRegistro_Click">Registrar</button>
+        <div>
+            <div class="form-group">
+                <asp:Label ID="LblMensaje" runat="server" Text=""></asp:Label>
+            </div>
+            <div class="form-group">
+                <asp:ValidationSummary ID="ValidationSummary1" runat="server" CssClass="text-danger" ValidationGroup="Grupo1" />
+                <asp:ValidationSummary ID="ValidationSummary2" runat="server" CssClass="text-danger" ValidationGroup="Grupo2" />
+            </div>
+        </div>
+        <asp:Button ID="BtnRegistro" runat="server" CssClass="button" ValidationGroup="Grupo1" OnClick="BtnRegistro_Click" Text="Registrar" />
     </form>
 </body>
 </html>
