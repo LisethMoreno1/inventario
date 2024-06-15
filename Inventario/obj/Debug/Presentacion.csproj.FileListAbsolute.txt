@@ -158,3 +158,5 @@ C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WE
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\ReglaDeNegocio.pdb
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\AccesoADatos.dll
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\Inventario\bin\AccesoADatos.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Inventario\bin\AccesoADatos.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\Inventario\bin\AccesoADatos.pdb
