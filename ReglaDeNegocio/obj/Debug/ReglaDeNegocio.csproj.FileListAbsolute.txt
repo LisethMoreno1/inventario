@@ -15,3 +15,8 @@ C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WE
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\ReglaDeNegocio\obj\Debug\ReglaDeNegocio.csproj.CopyComplete
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\ReglaDeNegocio\obj\Debug\ReglaDeNegocio.dll
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\ReglaDeNegocio\obj\Debug\ReglaDeNegocio.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\bin\Debug\AccesoADatos.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\bin\Debug\Common.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\bin\Debug\AccesoADatos.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\bin\Debug\Common.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\ReglaDeNegocio\obj\Debug\ReglaDeN.D33D55BB.Up2Date

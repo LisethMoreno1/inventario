@@ -7,3 +7,12 @@ C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WE
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\obj\Debug\AccesoADatos.csproj.CopyComplete
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\obj\Debug\AccesoADatos.dll
 C:\Users\paola\OneDrive\Documentos\QUINTO SEMESTRE\DESARROLLO DE APLICACIONES WEB II\Inventario\AccesoADatos\obj\Debug\AccesoADatos.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\bin\Debug\AccesoADatos.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\bin\Debug\AccesoADatos.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\bin\Debug\Common.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\bin\Debug\Common.pdb
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\obj\Debug\AccesoADatos.csproj.AssemblyReference.cache
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\obj\Debug\AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\obj\Debug\AccesoAD.856C7FE8.Up2Date
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\obj\Debug\AccesoADatos.dll
+C:\Users\Liseth\OneDrive\Documentos\GitHub\inventario\AccesoADatos\obj\Debug\AccesoADatos.pdb

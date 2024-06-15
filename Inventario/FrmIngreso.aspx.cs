@@ -1,6 +1,7 @@
 ﻿using Common;
 using ReglaDeNegocio;
 using System;
+using System.Collections.Generic;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -18,6 +19,7 @@ namespace Inventario
             CmbTipoProducto.SelectedIndexChanged += new EventHandler(DropDownList1_SelectedIndexChanged);
             CmbTipoProducto.AutoPostBack = true;
         }
+        public static List<IngresoProductoComun> productosRegistrados = new List<IngresoProductoComun>();
 
         private void CargarCombos()
         {
@@ -59,6 +61,8 @@ namespace Inventario
         }
 
         protected void BtnRegistro_Click(object sender, EventArgs e)
+
+
         {
             RN_IngresoDeProductos ingresoProductos = new RN_IngresoDeProductos();
             IngresoProductoComun productoComun = new IngresoProductoComun();
@@ -73,6 +77,8 @@ namespace Inventario
             {
                 LblMensaje.Text = "Se insertó el producto";
                 Limpiar();
+                Response.Redirect("FrmListado.aspx");
+
             }
             else
             {
@@ -82,7 +88,7 @@ namespace Inventario
                 }
                 else
                 {
-                    LblMensaje.Text = "No se insertó el usuario";
+                    LblMensaje.Text = "No se insertó el producto";
                 }
             }
             //string nombre = TextBox1.Text;
