@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Common;
 using System.Data;
 using System.Data.OleDb;
+using System.Data.SqlClient;
 
 namespace AccesoADatos
 {
@@ -44,5 +45,9 @@ namespace AccesoADatos
             }
             return numReg;
         }
+
+
     }
+
+
 }
