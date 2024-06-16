@@ -40,42 +40,22 @@
         <div>
             <h2>Listado de Inventario</h2>
    
-
-            <table class="inventory-table">
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Tipo</th>
-                        <th>Categoría</th>
-                        <th>Cantidad</th>
-                        <th>Fecha de Vencimiento</th>
-                        <th>Fecha de Registro</th>
-                        <th>Acciones</th>
-                    </tr>
-                </thead>
-                <tbody>
-                   
-                    <tr>
-                        <td>Ejemplo1</td>
-                        <td>Producto</td>
-                        <td>Electrónicos</td>
-                        <td>10</td>
-                        <td>2024-06-30</td>
-                        <td>2024-05-20</td>
-                         <td><button>Editar</button><button>Eliminar </button></td>
-                    </tr>
-                    <tr>
-                        <td>Ejemplo2</td>
-                        <td>Servicio</td>
-                        <td>Software</td>
-                        <td>5</td>
-                        <td>2024-07-15</td>
-                        <td>2024-05-25</td>
-                        <td><button>Editar</button><button>Eliminar </button></td>
-                    </tr>
-                    
-                </tbody>
-            </table>
+            <asp:GridView ID="GridView1" runat="server" CssClass="inventory-table" AutoGenerateColumns="False">
+                <Columns>
+                    <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
+                    <asp:BoundField DataField="Tipo" HeaderText="Tipo" />
+                    <asp:BoundField DataField="Categoria" HeaderText="Categoría" />
+                    <asp:BoundField DataField="Cantidad" HeaderText="Cantidad" />
+                    <asp:BoundField DataField="FechaVencimiento" HeaderText="Fecha de Vencimiento" DataFormatString="{0:d}" />
+                    <asp:BoundField DataField="FechaRegistro" HeaderText="Fecha de Registro" DataFormatString="{0:d}" />
+                    <asp:TemplateField HeaderText="Acciones">
+                        <ItemTemplate>
+                            <asp:Button runat="server" Text="Editar" CssClass="btn-editar" />
+                            <asp:Button runat="server" Text="Eliminar" CssClass="btn-eliminar" />
+                        </ItemTemplate>
+                    </asp:TemplateField>
+                </Columns>
+            </asp:GridView>
         </div>
     </form>
 </body>
