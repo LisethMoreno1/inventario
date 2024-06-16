@@ -46,7 +46,6 @@
     <Compile Include="CategoriaPerecederoBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RN_IngresoDeProductos.cs" />
-    <Compile Include="RN_ListaDeProductos.cs" />
     <Compile Include="RN_Login.cs" />
     <Compile Include="TipoProductoBL.cs" />
   </ItemGroup>

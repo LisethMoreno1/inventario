@@ -39,17 +39,7 @@
     <form id="form1" runat="server">
         <div>
             <h2>Listado de Inventario</h2>
-            <asp:Table ID="TableProductos" runat="server" CssClass="table table-striped">
-    <asp:TableHeaderRow>
-        <asp:TableHeaderCell>Nombre</asp:TableHeaderCell>
-        <asp:TableHeaderCell>Tipo</asp:TableHeaderCell>
-        <asp:TableHeaderCell>Categoría</asp:TableHeaderCell>
-        <asp:TableHeaderCell>Cantidad</asp:TableHeaderCell>
-        <asp:TableHeaderCell>Fecha Vencimiento</asp:TableHeaderCell>
-        <asp:TableHeaderCell>Fecha Registro</asp:TableHeaderCell>
-    </asp:TableHeaderRow>
-
-</asp:Table>
+   
 
             <table class="inventory-table">
                 <thead>
