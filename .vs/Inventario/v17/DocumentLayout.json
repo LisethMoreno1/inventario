@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{D9A022A1-6AF6-4D01-9BCB-03B55B5217E5}|Inventario\\Presentacion.csproj|solutionrelative:inventario\\frmlistado.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE01F191-3548-42F4-82E0-DD84EA38D391}|AccesoADatos\\AccesoADatos.csproj|c:\\users\\liseth\\onedrive\\documentos\\github\\inventario\\accesoadatos\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE01F191-3548-42F4-82E0-DD84EA38D391}|AccesoADatos\\AccesoADatos.csproj|solutionrelative:accesoadatos\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D9A022A1-6AF6-4D01-9BCB-03B55B5217E5}|Inventario\\Presentacion.csproj|c:\\users\\liseth\\onedrive\\documentos\\github\\inventario\\inventario\\frmlistado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{D9A022A1-6AF6-4D01-9BCB-03B55B5217E5}|Inventario\\Presentacion.csproj|solutionrelative:inventario\\frmlistado.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB33F827-7119-482E-851A-7437D2A03D12}|Common\\Comun.csproj|c:\\users\\liseth\\onedrive\\documentos\\github\\inventario\\common\\ingresoproductocomun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB33F827-7119-482E-851A-7437D2A03D12}|Common\\Comun.csproj|solutionrelative:common\\ingresoproductocomun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE01F191-3548-42F4-82E0-DD84EA38D391}|AccesoADatos\\AccesoADatos.csproj|c:\\users\\liseth\\onedrive\\documentos\\github\\inventario\\accesoadatos\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE01F191-3548-42F4-82E0-DD84EA38D391}|AccesoADatos\\AccesoADatos.csproj|solutionrelative:accesoadatos\\productodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,20 +30,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IngresoProductoComun.cs",
               "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Common\\IngresoProductoComun.cs",
               "RelativeDocumentMoniker": "Common\\IngresoProductoComun.cs",
               "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Common\\IngresoProductoComun.cs",
               "RelativeToolTip": "Common\\IngresoProductoComun.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA5wCEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T20:56:42.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FrmListado.aspx",
               "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmListado.aspx",
               "RelativeDocumentMoniker": "Inventario\\FrmListado.aspx",
@@ -56,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ProductoDAO.cs",
               "DocumentMoniker": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\AccesoADatos\\ProductoDAO.cs",
               "RelativeDocumentMoniker": "AccesoADatos\\ProductoDAO.cs",
@@ -87,7 +87,7 @@
               "RelativeDocumentMoniker": "Inventario\\FrmListado.aspx.cs",
               "ToolTip": "C:\\Users\\Liseth\\OneDrive\\Documentos\\GitHub\\inventario\\Inventario\\FrmListado.aspx.cs",
               "RelativeToolTip": "Inventario\\FrmListado.aspx.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCcAAABBAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T20:23:35.443Z",
               "EditorCaption": ""
