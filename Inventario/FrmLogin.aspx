@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #f0f8ff;
             margin: 0;
             padding: 0;
             display: flex;
@@ -17,39 +17,55 @@
         }
         .login-container {
             background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #007bff;
         }
         .login-container input[type="text"],
-        .login-container input[type="password"],
-        .login-container input[type="submit"] {
+        .login-container input[type="password"] {
             width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 3px;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
             box-sizing: border-box;
+            font-size: 16px;
         }
         .login-container input[type="submit"] {
+            width: 100%;
+            padding: 12px;
             background-color: #007bff;
             color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
             cursor: pointer;
+            transition: background-color 0.3s ease;
         }
         .login-container input[type="submit"]:hover {
             background-color: #0056b3;
         }
-        .error-message {
+        .login-container .error-message {
             color: red;
+            text-align: center;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="login-container">
+            <h2>Login</h2>
             <asp:TextBox ID="TxtUsername" runat="server" placeholder="Username"></asp:TextBox>
             <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password" placeholder="Password"></asp:TextBox>
-            <asp:Button ID="BtnLogin" runat="server" Text="Login" OnClick="BtnLogin_Click" />
+            <asp:Button ID="BtnLogin" runat="server" Text="Login" OnClick="BtnLogin_Click" CssClass="btn-login" />
             <asp:Label ID="LblMensaje" runat="server" CssClass="error-message"></asp:Label>
         </div>
     </form>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Web.Security;
 using System.Web.UI.WebControls;
 using Common;
 
@@ -62,6 +63,14 @@ namespace Inventario
 
         }
 
-       
+        protected void LkbCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+
+            FormsAuthentication.SignOut();
+
+            Response.Redirect("~/FrmLogin.aspx");
+        }
     }
 }

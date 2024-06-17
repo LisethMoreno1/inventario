@@ -2,6 +2,7 @@
 using ReglaDeNegocio;
 using System;
 using System.Collections.Generic;
+using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -110,6 +111,17 @@ namespace Inventario
             // {
             //     Response.Write("<script>alert('Error al registrar el producto');</script>");
             // }
+
+           
+        }
+        protected void LkbCerrarSesion_Click(object sender, EventArgs e)
+        {
+            Session.Clear();
+            Session.Abandon();
+
+            FormsAuthentication.SignOut();
+
+            Response.Redirect("~/FrmLogin.aspx");
         }
     }
 }
