@@ -24,12 +24,6 @@ namespace ReglaDeNegocio
         public int RegistrarProducto(IngresoProductoComun producto)
         {
 
-            //if (producto == null || string.IsNullOrEmpty(producto.Nombre) || producto.IdTipo <=0 || producto.IdCategoria <=0 || producto.Cantidad <= 0 || producto.FechaVencimiento == DateTime.MinValue || producto.FechaRegistro == DateTime.MinValue)
-            //{
-            //    return false; 
-            //}
-            //return true;
-
             var numReg = 0;
             numReg = productoDAO.Registrar(producto);
             if(numReg <= 0)
@@ -42,5 +36,42 @@ namespace ReglaDeNegocio
             }
             return numReg;
         }
+
+        public int Actualizar(IngresoProductoComun producto)
+        {
+            var numReg = 0;
+            numReg = productoDAO.Actualizar(producto);
+            if (numReg <= 0)
+            {
+                if (productoDAO.BdCodeError != 0)
+                {
+                    BdCodeError = productoDAO.BdCodeError;
+                    BdMsgError = productoDAO.BdMsgError;
+                }
+            }
+            return numReg;
+        }
+        
+        public static List<IngresoProductoComun> Consultar()
+        {
+            ProductoDAO productoDAO = new ProductoDAO();
+            return productoDAO.Consultar();
+        }
+
+        public int Eliminar(int id)
+        {
+            var numReg = 0;
+            numReg = productoDAO.Eliminar(id);
+            if (numReg <= 0)
+            {
+                if (productoDAO.BdCodeError != 0)
+                {
+                    BdCodeError = productoDAO.BdCodeError;
+                    BdMsgError = productoDAO.BdMsgError;
+                }
+            }
+            return numReg;
+        }
+
     }
 }

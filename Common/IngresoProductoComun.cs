@@ -8,6 +8,7 @@ namespace Common
 {
     public class IngresoProductoComun
     {
+        public int IdProducto { get; set; }
         public string Nombre { get; set; }
         public int IdTipo { get; set; }
         public int IdCategoria { get; set; }
@@ -17,7 +18,7 @@ namespace Common
 
         public IngresoProductoComun()
         {
-            
+            IdProducto = 0;
             Nombre = string.Empty;
             IdTipo = 0;
             IdCategoria = 0;
@@ -26,8 +27,9 @@ namespace Common
             FechaRegistro = DateTime.Now;
         }
 
-        public IngresoProductoComun(string nombre, int idTipo, int idCategoria, int cantidad, DateTime fechaVencimiento, DateTime fechaRegistro)
+        public IngresoProductoComun(int idProducto, string nombre, int idTipo, int idCategoria, int cantidad, DateTime fechaVencimiento, DateTime fechaRegistro)
         {
+            IdProducto = idProducto;
             Nombre = nombre;
             IdTipo = idTipo;
             IdCategoria = idCategoria;

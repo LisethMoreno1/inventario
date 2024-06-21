@@ -15,15 +15,6 @@ namespace Inventario
     {
 
         /// <summary>
-        /// Control form1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
-        /// <summary>
         /// Control LblNombre.
         /// </summary>
         /// <remarks>
@@ -42,13 +33,40 @@ namespace Inventario
         protected global::System.Web.UI.WebControls.TextBox TxtNombre;
 
         /// <summary>
-        /// Control LblTipo.
+        /// Control LblIdProducto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblTipo;
+        protected global::System.Web.UI.WebControls.Label LblIdProducto;
+
+        /// <summary>
+        /// Control TxtId.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtId;
+
+        /// <summary>
+        /// Control RevIdProducto.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RevIdProducto;
+
+        /// <summary>
+        /// Control LblTipoProducto.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblTipoProducto;
 
         /// <summary>
         /// Control CmbTipoProducto.
@@ -96,6 +114,15 @@ namespace Inventario
         protected global::System.Web.UI.WebControls.TextBox TxtCantidad;
 
         /// <summary>
+        /// Control RevCantidad.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RevCantidad;
+
+        /// <summary>
         /// Control LblFechaVencimiento.
         /// </summary>
         /// <remarks>
@@ -114,13 +141,22 @@ namespace Inventario
         protected global::System.Web.UI.WebControls.Calendar CalFechaVencimiento;
 
         /// <summary>
-        /// Control LblFechaRegistro.
+        /// Control LblNoAplica.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblFechaRegistro;
+        protected global::System.Web.UI.WebControls.Label LblNoAplica;
+
+        /// <summary>
+        /// Control Label6.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
         /// Control CalFechaRegistro.
@@ -141,30 +177,30 @@ namespace Inventario
         protected global::System.Web.UI.WebControls.Label LblMensaje;
 
         /// <summary>
-        /// Control ValidationSummary1.
+        /// Control ValidationSummary3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary1;
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary3;
 
         /// <summary>
-        /// Control ValidationSummary2.
+        /// Control ValidationSummary4.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary2;
+        protected global::System.Web.UI.WebControls.ValidationSummary ValidationSummary4;
 
         /// <summary>
-        /// Control BtnRegistro.
+        /// Control BtnIngreso.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnRegistro;
+        protected global::System.Web.UI.WebControls.Button BtnIngreso;
     }
 }

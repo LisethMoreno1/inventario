@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web.Security;
 using System.Web.UI.WebControls;
 using Common;
 using ReglaDeNegocio; 
@@ -21,11 +22,20 @@ namespace Inventario
 
             if (negocioLogin.ValidateCredentials(username, password)) 
             {
-                Response.Redirect("FrmIngreso.aspx");
+                FormsAuthentication.SetAuthCookie(username, false);
+                string returnUrl = Request.QueryString["ReturnUrl"];
+                if (!String.IsNullOrEmpty(returnUrl))
+                {
+                    Response.Redirect(returnUrl);
+                }
+                else
+                {
+                    Response.Redirect("FrmMainAdmin.aspx");
+                }
             }
             else
             {
-                LblMensaje.Text = "Usuario o contraseña invalidad";
+                LblMensaje.Text = "Usuario o contraseña inválida";
                 LblMensaje.CssClass = "message";
             }
 
@@ -36,7 +46,7 @@ namespace Inventario
 
         protected void BtnHome_Click(object sender, EventArgs e)
         {
-            Response.Redirect("FrmIngreso.aspx");
+            Response.Redirect("FrmMainAdmin.aspx");
         }
 
         

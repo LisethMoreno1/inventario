@@ -1,11 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FrmMainAdmin.aspx.cs" Inherits="Inventario.FrmMainAdmin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FrmMainAdmin.aspx.cs" Inherits="Inventario.FrmMainAdmin" MasterPageFile="~/Site.Master" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Administración</title>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,13 +38,10 @@
             color: #0056b3;
         }
     </style>
-</head>
-<body>
-    <form id="form1" runat="server">
+    <div id="form1">
         <div>
             <asp:Label ID="LblBienvenida" runat="server" Text="Bienvenido, Administrador"></asp:Label>
-            <asp:LinkButton ID="LkbCerrarSesion" runat="server" OnClick="LkbCerrarSesion_Click">Cerrar Sesión</asp:LinkButton>
         </div>
-    </form>
-</body>
-</html>
+        <p>En este aplicativo podrá registrar productos, actualizarlos y eliminarlos</p>
+    </div>
+</asp:Content>
